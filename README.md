@@ -365,9 +365,10 @@ Launch MobaXterm and click Start local terminal
 
    ![](./images/2019-09-10_12h22_43.png)
    
-  - Enter **192.168.0.10** in the Remote Host 
-
-   ![](./images/2019-09-10_12h23_14.png) 
+  - Enter **192.168.0.10** in the Remote Host
+  - Make sure X11-Forwarding is Checked 
+  
+   ![](./images/2019-09-10_13h43_05.png) 
    
   - Copying DNNDK Tools and Application to the PYNQ-Z2 Board
 
