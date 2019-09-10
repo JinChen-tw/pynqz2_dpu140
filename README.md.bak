@@ -44,10 +44,13 @@ Reference: https://github.com/alexhegit/zc702_dpu140_trd
      - Project Name: **pynq_dpu**
 
      - Project Location: `<PROJ ROOT>/vivado`
+     ![](./images/2019-09-10_09h45_25.png)
 
      - Do not specify sources
 
-     - Select **PYNQ-Z2 Evaluation Platform**
+     - Select **PYNQ-Z2 Evaluation Platform** 
+     ![](./images/2019-09-04_PYNQ.png)
+     
 2. Click **Finish**.
 ## Step 2: Add the DPU IP repository to the IP catalog
   1. Click **Setting** in the Project Manager.
@@ -61,9 +64,10 @@ Reference: https://github.com/alexhegit/zc702_dpu140_trd
      ```
      source design_1.tcl
      ```
-     ![](./images/2019-09-04_17h47_20.png)
+     ![](./images/2019-09-04_17h47_20.png) 
+  2. Click **Regenerate Layout** in the Block Design     
+	   ![](./images/2019-09-04_IPI.png)
  
-
 ## Step 4: Examine the DPU configuration and connections
 The details in step by step can refer to PG338 and here just some highlight attentions.
 - S_AXI Clock @ 100MHz
@@ -112,7 +116,8 @@ $petalinux-config --get-hw-description=[PATH to vivado HDF file]
 Set SD rootfs mode Petalinux-config Menu run auto after imported HDF. 
 
 Please set SD rootfs by : 
-**Image Packaging Configuration** --> **Root filesystem type (SD card)** --> **SD card**
+**Image Packaging Configuration** --> **Root filesystem type (SD card)** --> **SD card** 
+![](./images/2019-09-04_17h47_20.png)
 
 ## Step 3: Copy recipes to the PetaLinux project
 1. Add a recipe to add the DPU utilities, libraries, and header files into the root file system.

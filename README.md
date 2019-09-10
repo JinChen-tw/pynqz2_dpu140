@@ -65,7 +65,7 @@ Reference: https://github.com/alexhegit/zc702_dpu140_trd
      source design_1.tcl
      ```
      ![](./images/2019-09-04_17h47_20.png) 
-	2.Click **Regenerate Layout** in the BLOCK Design     
+  2. Click **Regenerate Layout** in the Block Design     
 	   ![](./images/2019-09-04_IPI.png)
  
 ## Step 4: Examine the DPU configuration and connections
