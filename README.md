@@ -406,7 +406,7 @@ Launch MobaXterm and click Start local terminal
      ./yolo ./image i
      ```
 
-
+     ![](./images/2019-09-10_13h39_29.png)  
 
 
 
