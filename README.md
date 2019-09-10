@@ -309,7 +309,8 @@ Use the following to open the top-level PetaLinux project configuration GUI.
    
    Opening a USB Serial Terminal
    
-   Installed **Tera Term** on your computer. (or Putty) 
+   Installed **Tera Term**(or **Putty**) on your computer. 
+   
    To open a terminal, you will need to know the  **COM port**  for the board.  
      
    ![](./images/2019-09-10_11h01_34.png) 
