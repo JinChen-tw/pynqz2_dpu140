@@ -4,9 +4,9 @@ Reference: https://github.com/alexhegit/zc702_dpu140_trd
 
 # Running Yolo on PYNQ-Z2 ( DPU v1.4) 
 
-![](./2019-09-03_23h22_30.png)
+![](./images/2019-09-03_23h22_30.png)
 
-![](./2019-09-03_23h20_33.png)
+![](./images/2019-09-03_23h20_33.png)
 
 # Quick Start 
 ## Prerequisites
@@ -61,7 +61,7 @@ Reference: https://github.com/alexhegit/zc702_dpu140_trd
      ```
      source design_1.tcl
      ```
-     ![](./2019-09-04_17h47_20.png)
+     ![](./images/2019-09-04_17h47_20.png)
  
 
 ## Step 4: Examine the DPU configuration and connections
@@ -70,27 +70,27 @@ The details in step by step can refer to PG338 and here just some highlight atte
 - M_AXI Clock @ 150MHz for DPU and Clock @ 300MHz for DPU DSP
 - DPU IRQ connect to IRQ_F2P[0]
 
-![](./2019-09-04_15h25_50.png)
+![](./images/2019-09-04_15h25_50.png)
 
 
 - DPU S_AXI address set 0x4F000000 - 0x4FFFFFFF(16M)
 
-![](./2019-09-04_18h05_40.png)
+![](./images/2019-09-04_18h05_40.png)
 
  When the block design is complete, right-click on the **design_1** in the Sources tab and select **Create HDL Wrapper**.
-![](./2019-09-04_IP.png)
+![](./images/2019-09-04_IP.png)
 
 ## Step 5: Generate the bitstream
 1. Click **Generate Bitstream**. 
 
 The FPGA resource for DPU 1152 on PYNQ-Z2
-![](./2019-09-04_09h07_12.png)
+![](./images/2019-09-04_09h07_12.png)
 ## Step 6: Export the .hdf file.
   1. Click **File** > **Export** > **Export Hardware**.
   2. Make sure to include the bitstream.
   3. Click **OK**.
   
-![](./2019-09-04_18h09_36.png)
+![](./images/2019-09-04_18h09_36.png)
 
 You can find the HDF from the path `<PROJ ROOT>/pynq_dpu/vivado/pynq_dpu/project_1.sdk`
 # Generating the Linux Platform in PetaLinux
@@ -247,29 +247,29 @@ Use the following to open the top-level PetaLinux project configuration GUI.
   
   Select SD card in `gparted `
   
-  ![](./2019-09-05_10h45_29.png)
+  ![](./images/2019-09-05_10h45_29.png)
 
   Umount the SD card and delete the existing partitions on the SD card
   
-  ![](./2019-09-05_10h48_40.png)
+  ![](./images/2019-09-05_10h48_40.png)
     
-  ![](./2019-09-05_10h49_55.png)
+  ![](./images/2019-09-05_10h49_55.png)
 
   Unallocated in Gparted
     
-  ![](./2019-09-05_10h51_08.png)
+  ![](./images/2019-09-05_10h51_08.png)
    
   Right click on the allocated space and create a new partition according to the settings below
     
-  ![](./2019-09-05_10h51_47.png)
+  ![](./images/2019-09-05_10h51_47.png)
   
   The first is BOOT partioin in FAT32
   
-  ![](./2019-09-05_10h52_47.png)
+  ![](./images/2019-09-05_10h52_47.png)
   
   The second is ROOTFS partion in ext4
   
-  ![](./2019-09-05_10h53_41.png)
+  ![](./images/2019-09-05_10h53_41.png)
   
   Turn off `gparted ` and mount the two partitions you just formatted.
 
