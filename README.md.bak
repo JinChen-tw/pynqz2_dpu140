@@ -288,9 +288,13 @@ Use the following to open the top-level PetaLinux project configuration GUI.
   ```
   
 2. Boot the PYNQ-Z2 with this image 
-   PYNQ-Z2 Board Setup
-![](./images/2019-09-10_10h45_15.png) 
-      
+
+![](./images/2019-09-10_10h45_15.png)  
+
+
+
+
+     PYNQ-Z2 Board Setup 
      - 1.Set the ** Boot** jumper to the SD position. (This sets the board to boot from the Micro-SD card)
      - 2.To power the board from the micro USB cable, set the Power jumper to the USB position. 
      - 3.Insert the Micro SD card loaded with the image into the Micro SD
@@ -301,57 +305,61 @@ Use the following to open the top-level PetaLinux project configuration GUI.
    Opening a USB Serial Terminal
    
    You will need to have terminal emulator software installed on your computer, and **Tera Term** is one application that can be used. 
-   To open a terminal, you will need to know the  ** COM port **  for the board.    
-     ![](./images/2019-09-10_11h01_34.png) 
+   To open a terminal, you will need to know the  ** COM port **  for the board.  
+     
+   ![](./images/2019-09-10_11h01_34.png) 
+    
       
-    ** Setup **  ->   ** Serial Port**      
+    **Setup**  ->   **Serial Port** 
+         
    ![](./images/2019-09-10_11h03_34.png) 
    
-   Full terminal Settings:
-		• 115200 baud
-		• 8 data bits 
-		• No Parity  
-		• 1 stop bit 
+   Full terminal Settings: 
+   
+			• 115200 baud
+			• 8 data bits 
+			• No Parity  
+			• 1 stop bit 
 		
      ![](./images/2019-09-10_11h02_03.png)  
      
    Login by enter ** root ** 
    Password :  ** root ** 
      
-     ![](./images/2019-09-10_11h04_20.png) 
+   ![](./images/2019-09-10_11h04_20.png) 
  
                      
 # Application # 
 Before Running the application , you should copy DNNDK Tools and Application to the Evaluation Board
   
   1. Install DNNDK into PYNQ-Z2 board
-   Execute the sudo ./install.sh command under the zynq7020_dnndk_v3.0 folder 
-  ```
-    $./zynq7020_dnndk_v3.0/install.sh 
-  ``` 
+     - Execute the sudo ./install.sh command under the zynq7020_dnndk_v3.0 folder 
+     ```
+     $./zynq7020_dnndk_v3.0/install.sh 
+     ``` 
    
-   Check the DPU of the board.   
-  ```
-    $dexplorer -w
-  ```
+     - Check the DPU of the board.   
+     ```
+     $dexplorer -w
+     ```
      
-   Check the version information of DNNDK  
-  ```
+     - Check the version information of DNNDK  
+    ```
     $dexplorer -v 
-  ```
+    ```
     
    * Connect a USB Ethernet adapter to one of the USB Host ports on the board, and connect to your local network or directly to your PC.
 
  2. Run the yolov3 applications 
-  Change to the directory with the `app` application and run make.
-  ```
-  $cd <PROJ ROOT>/app
-  $make
-  ```  
-  After running make and launch it with the command. 
-  ```                            
-  ./yolo ./image i
-  ```
+     - Change to the directory with the `app` application and run make.
+     ```
+     $cd <PROJ ROOT>/app
+     $make
+     ```  
+     - After running make and launch it with the command. 
+     ```                            
+     ./yolo ./image i
+     ```
 
 
 
