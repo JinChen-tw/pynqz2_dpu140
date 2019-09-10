@@ -343,11 +343,13 @@ Before Running the application , you should copy DNNDK Tools and Application to 
 The steps below illustrate how to setup DNNDK running environment for DNNDK package is stored on a Windows system.
 Download and install **MobaXterm** on Windows system. MobaXterm is a terminal for Windows, and is available online at https://mobaxterm.mobatek.net/.
 
-Setup the address IP on the Board in the **tera term**, enter below 
+Setup the address IP on the Board in the **tera term**, enter below
+
      ```
      $ifconfig eth0 192.168.0.10
      ```  
-   ![](./images/2019-09-10_12h08_09.png)
+  
+  ![](./images/2019-09-10_12h08_09.png)
    
 Assign your laptop/PC a static IP address 
     - Double click on the network interface to open it, and click on Properties
@@ -361,15 +363,15 @@ Launch MobaXterm and click Start local terminal
 
    ![](./images/2019-09-10_12h12_24.png) 
    
-Click **New Session**
+  - Click **New Session**
 
    ![](./images/2019-09-10_12h22_43.png)
    
-Enter **192.168.0.10** in the Remote Host 
+  - Enter **192.168.0.10** in the Remote Host 
 
    ![](./images/2019-09-10_12h23_14.png) 
    
-Copying DNNDK Tools and Application to the PYNQ-Z2 Board
+  - Copying DNNDK Tools and Application to the PYNQ-Z2 Board
 
    ![](./images/2019-09-10_12h24_18.png)
    
