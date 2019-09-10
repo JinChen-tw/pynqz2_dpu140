@@ -347,22 +347,20 @@ Setup the address IP on the Board in the **tera term**, enter below
 
      ```
      $ifconfig eth0 192.168.0.10
+     
      ```  
-  
   ![](./images/2019-09-10_12h08_09.png)
    
 Assign your laptop/PC a static IP address 
     - Double click on the network interface to open it, and click on Properties
     - Select Internet Protocol Version 4 (TCP/IPv4) and click Properties
-    - Set the Ip address to 192.168.0.1 (or any other address in the same range as the board)
+    - Set the Ip address to **192.168.0.1** (or any other address in the same range as the board)
     - Set the subnet mask to 255.255.255.0 and click OK
     
    ![](./images/2019-09-10_12h12_24.png)  
    
 Launch MobaXterm and click Start local terminal
-
-   ![](./images/2019-09-10_12h12_24.png) 
-   
+  
   - Click **New Session**
 
    ![](./images/2019-09-10_12h22_43.png)
@@ -397,8 +395,12 @@ Launch MobaXterm and click Start local terminal
      $cd <PROJ ROOT>/app
      $make
      ```     
-     - After running make and launch it with the command
-      
+     - After running make,generate the complier file under the foloder
+     
+     ![](./images/2019-09-10_11h56_45.png)  
+     
+     Launch it with the command
+    
      ```                            
      ./yolo ./image i
      ```
