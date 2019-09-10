@@ -320,11 +320,11 @@ Use the following to open the top-level PetaLinux project configuration GUI.
    ![](./images/2019-09-10_11h03_34.png) 
    
    Full terminal Settings:
-   	-**115200 baud**
-	-**8 data bits**
-        -**No Parity**  
-	-**1 stop bit**
- 
+   
+	• baud rate: 115200 bps
+	• data bit: 8
+	• no parity
+	• stop bit: 1
 		
    ![](./images/2019-09-10_11h02_03.png) 
  
