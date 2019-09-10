@@ -339,36 +339,52 @@ Use the following to open the top-level PetaLinux project configuration GUI.
 # Application #
  
 Before Running the application , you should copy DNNDK Tools and Application to the Evaluation Board
-  
+
+The steps below illustrate how to setup DNNDK running environment for DNNDK package is stored on a Windows system.
+Download and install **MobaXterm** on Windows system. MobaXterm is a terminal for Windows, and is available online at https://mobaxterm.mobatek.net/.
+
+Setup the address IP on the Board in the **tera term**, enter below 
+     ```
+     $ifconfig eth0 192.168.0.10
+     ```  
+   ![](./images/2019-09-10_12h08_09.png)
+   
+Assign your laptop/PC a static IP address 
+    - Double click on the network interface to open it, and click on Properties
+    - Select Internet Protocol Version 4 (TCP/IPv4) and click Properties
+    - Set the Ip address to 192.168.0.1 (or any other address in the same range as the board)
+    - Set the subnet mask to 255.255.255.0 and click OK
+    
+   ![](./images/2019-09-10_12h12_24.png)  
+   
+Launch MobaXterm and click Start local terminal
+Click **New Session**
+   ![](./images/2019-09-10_12h22_43.png) 
+   
+   ![](./images/2019-09-10_12h23_14.png) 
+   
   1. Install DNNDK into PYNQ-Z2 board
      - Execute the sudo ./install.sh command under the zynq7020_dnndk_v3.0 folder 
      ```
      $./zynq7020_dnndk_v3.0/install.sh
  
-     ```
- 
-   
+     ```  
      - Check the DPU of the board.   
      ```
      $dexplorer -w
-     ```
-     
+     ```   
      - Check the version information of DNNDK  
      ```
      $dexplorer -v 
      ```
     
-
  2. Run the yolov3 applications 
      - Change to the directory with the `app` application and run make 
        
      ```
      $cd <PROJ ROOT>/app
      $make
-     ```
- 
- 
-     
+     ```     
      - After running make and launch it with the command
       
      ```                            
