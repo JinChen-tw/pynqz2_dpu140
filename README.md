@@ -297,16 +297,14 @@ Use the following to open the top-level PetaLinux project configuration GUI.
  
 
 
-
-
    PYNQ-Z2 Board Setup 
      
-   - 1. Set the **Boot** jumper to the SD position. (This sets the board to boot from the Micro-SD card)       
-   - 2. To power the board from the micro USB cable, set the Power jumper to the USB position      
-   - 3. Insert the Micro SD card loaded with the image into the Micro SD     
-   - 4. Connect the **USB cable** to your PC/Laptop, and to the PROG - UART MicroUSB port on the board    
-   - 5. Connect the **Ethernet cable**  to your PC/Laptop, and to the RJ45 port on the board    
-   - 6. Turn on the PYNQ-Z2
+   -1.Set the **Boot** jumper to the SD position. (This sets the board to boot from the Micro-SD card)       
+   -2.To power the board from the micro USB cable, set the Power jumper to the USB position      
+   -3.Insert the Micro SD card loaded with the image into the Micro SD     
+   -4.Connect the **USB cable** to your PC/Laptop, and to the PROG - UART MicroUSB port on the board    
+   -5.Connect the **Ethernet cable**  to your PC/Laptop, and to the RJ45 port on the board    
+   -6.Turn on the PYNQ-Z2
     
    
    Opening a USB Serial Terminal
@@ -322,18 +320,18 @@ Use the following to open the top-level PetaLinux project configuration GUI.
    ![](./images/2019-09-10_11h03_34.png) 
    
    Full terminal Settings:
- 
    	• 115200 baud
 	• 8 data bits
         • No Parity  
 	• 1 stop bit
  
 		
-     ![](./images/2019-09-10_11h02_03.png) 
+   ![](./images/2019-09-10_11h02_03.png) 
  
      
   
-   Login by enter **root** 
+   Login by enter **root**
+   
    Password :  **root** 
      
    ![](./images/2019-09-10_11h04_20.png) 
