@@ -358,10 +358,20 @@ Assign your laptop/PC a static IP address
    ![](./images/2019-09-10_12h12_24.png)  
    
 Launch MobaXterm and click Start local terminal
-Click **New Session**
-   ![](./images/2019-09-10_12h22_43.png) 
+
+   ![](./images/2019-09-10_12h12_24.png) 
    
+Click **New Session**
+
+   ![](./images/2019-09-10_12h22_43.png)
+   
+Enter **192.168.0.10** in the Remote Host 
+
    ![](./images/2019-09-10_12h23_14.png) 
+   
+Copying DNNDK Tools and Application to the PYNQ-Z2 Board
+
+   ![](./images/2019-09-10_12h24_18.png)
    
   1. Install DNNDK into PYNQ-Z2 board
      - Execute the sudo ./install.sh command under the zynq7020_dnndk_v3.0 folder 
