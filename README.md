@@ -48,7 +48,8 @@ Reference: https://github.com/alexhegit/zc702_dpu140_trd
 
      - Do not specify sources
 
-     - Select **PYNQ-Z2 Evaluation Platform** 
+     - Select **PYNQ-Z2 Evaluation Platform**
+ 
      ![](./images/2019-09-04_PYNQ.png)
      
 2. Click **Finish**.
@@ -64,7 +65,8 @@ Reference: https://github.com/alexhegit/zc702_dpu140_trd
      ```
      source design_1.tcl
      ```
-     ![](./images/2019-09-04_17h47_20.png) 
+     ![](./images/2019-09-04_17h47_20.png)
+ 
   2. Click **Regenerate Layout** in the Block Design     
 	   ![](./images/2019-09-04_IPI.png)
  
@@ -116,7 +118,8 @@ $petalinux-config --get-hw-description=[PATH to vivado HDF file]
 Set SD rootfs mode Petalinux-config Menu run auto after imported HDF. 
 
 Please set SD rootfs by : 
-**Image Packaging Configuration** --> **Root filesystem type (SD card)** --> **SD card** 
+**Image Packaging Configuration** --> **Root filesystem type (SD card)** --> **SD card**
+ 
 ![](./images/2019-09-06_16h54_49.png)
 
 ## Step 3: Copy recipes to the PetaLinux project
@@ -287,24 +290,26 @@ Use the following to open the top-level PetaLinux project configuration GUI.
   $cp BOOT.bin image.ub /media/{user}/BOOT
   ```
   
-2. Boot the PYNQ-Z2 with this image 
+2. Boot the PYNQ-Z2 with this image
+ 
 
-![](./images/2019-09-10_10h45_15.png)  
+![](./images/2019-09-10_10h45_15.png) 
+ 
 
 
 
 
-     PYNQ-Z2 Board Setup 
+   PYNQ-Z2 Board Setup 
      
-     - 1. Set the **Boot** jumper to the SD position. (This sets the board to boot from the Micro-SD card)         
-     - 2. To power the board from the micro USB cable, set the Power jumper to the USB position      
-     - 3. Insert the Micro SD card loaded with the image into the Micro SD     
-     - 4. Connect the **USB cable** to your PC/Laptop, and to the PROG - UART MicroUSB port on the board    
-     - 5. Connect the **Ethernet cable**  to your PC/Laptop, and to the RJ45 port on the board    
-     - 6. Turn on the PYNQ-Z2
+   - 1. Set the **Boot** jumper to the SD position. (This sets the board to boot from the Micro-SD card)       
+   - 2. To power the board from the micro USB cable, set the Power jumper to the USB position      
+   - 3. Insert the Micro SD card loaded with the image into the Micro SD     
+   - 4. Connect the **USB cable** to your PC/Laptop, and to the PROG - UART MicroUSB port on the board    
+   - 5. Connect the **Ethernet cable**  to your PC/Laptop, and to the RJ45 port on the board    
+   - 6. Turn on the PYNQ-Z2
     
    
-   Opening a USB Serial Terminal
+   Opening a USB Serial Terminal
    
    You will need to have terminal emulator software installed on your computer, and **Tera Term** is one application that can be used. 
    To open a terminal, you will need to know the  **COM port**  for the board.  
@@ -312,33 +317,39 @@ Use the following to open the top-level PetaLinux project configuration GUI.
    ![](./images/2019-09-10_11h01_34.png) 
     
       
-    **Setup**  -> **Serial Port** 
+   **Setup**  -> **Serial Port** 
          
    ![](./images/2019-09-10_11h03_34.png) 
    
-   Full terminal Settings: 
-   
-			• 115200 baud
-			• 8 data bits 
-			• No Parity  
-			• 1 stop bit 
+   Full terminal Settings:
+ 
+   	• 115200 baud
+	• 8 data bits
+        • No Parity  
+	• 1 stop bit
+ 
 		
-     ![](./images/2019-09-10_11h02_03.png)  
+     ![](./images/2019-09-10_11h02_03.png) 
+ 
      
-   Login by enter **root** 
+  
+   Login by enter **root** 
    Password :  **root** 
      
    ![](./images/2019-09-10_11h04_20.png) 
  
                      
-# Application # 
+# Application #
+ 
 Before Running the application , you should copy DNNDK Tools and Application to the Evaluation Board
   
   1. Install DNNDK into PYNQ-Z2 board
      - Execute the sudo ./install.sh command under the zynq7020_dnndk_v3.0 folder 
      ```
-     $./zynq7020_dnndk_v3.0/install.sh 
-     ``` 
+     $./zynq7020_dnndk_v3.0/install.sh
+ 
+     ```
+ 
    
      - Check the DPU of the board.   
      ```
@@ -357,7 +368,9 @@ Before Running the application , you should copy DNNDK Tools and Application to 
      ```
      $cd <PROJ ROOT>/app
      $make
-     ```  
+     ```
+ 
+ 
      
      - After running make and launch it with the command
       
