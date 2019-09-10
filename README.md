@@ -368,11 +368,11 @@ Launch MobaXterm and click Start local terminal
   - Enter **192.168.0.10** in the Remote Host
   - Make sure X11-Forwarding is Checked 
   
-   ![](./images/2019-09-10_13h43_05.png) 
+   ![](./images/2019-09-10_13h43_06.png) 
    
   - Copying DNNDK Tools and Application to the PYNQ-Z2 Board
 
-   ![](./images/2019-09-10_12h24_18.png)
+   ![](./images/2019-09-10_13h55_40.png)
    
   1. Install DNNDK into PYNQ-Z2 board
      - Execute the sudo ./install.sh command under the zynq7020_dnndk_v3.0 folder 
