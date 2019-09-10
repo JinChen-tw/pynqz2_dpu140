@@ -296,28 +296,23 @@ Use the following to open the top-level PetaLinux project configuration GUI.
 
      PYNQ-Z2 Board Setup 
      
-     - 1.Set the ** Boot ** jumper to the SD position. (This sets the board to boot from the Micro-SD card) 
-     
-     - 2.To power the board from the micro USB cable, set the Power jumper to the USB position
-      
-     - 3.Insert the Micro SD card loaded with the image into the Micro SD 
-     
-     - 4.Connect the ** USB cable ** to your PC/Laptop, and to the PROG - UART MicroUSB port on the board
-     
-     - 5.Connect the ** Ethernet cable **  to your PC/Laptop, and to the RJ45 port on the board
-     
-     - 6.Turn on the PYNQ-Z2
+     - 1. Set the **Boot** jumper to the SD position. (This sets the board to boot from the Micro-SD card)         
+     - 2. To power the board from the micro USB cable, set the Power jumper to the USB position      
+     - 3. Insert the Micro SD card loaded with the image into the Micro SD     
+     - 4. Connect the **USB cable** to your PC/Laptop, and to the PROG - UART MicroUSB port on the board    
+     - 5. Connect the **Ethernet cable**  to your PC/Laptop, and to the RJ45 port on the board    
+     - 6. Turn on the PYNQ-Z2
     
    
    Opening a USB Serial Terminal
    
-   You will need to have terminal emulator software installed on your computer, and ** Tera Term ** is one application that can be used. 
-   To open a terminal, you will need to know the  ** COM port **  for the board.  
+   You will need to have terminal emulator software installed on your computer, and **Tera Term** is one application that can be used. 
+   To open a terminal, you will need to know the  **COM port**  for the board.  
      
    ![](./images/2019-09-10_11h01_34.png) 
     
       
-    ** Setup **  ->   ** Serial Port ** 
+    **Setup**  -> **Serial Port** 
          
    ![](./images/2019-09-10_11h03_34.png) 
    
@@ -330,8 +325,8 @@ Use the following to open the top-level PetaLinux project configuration GUI.
 		
      ![](./images/2019-09-10_11h02_03.png)  
      
-   Login by enter ** root ** 
-   Password :  ** root ** 
+   Login by enter **root** 
+   Password :  **root** 
      
    ![](./images/2019-09-10_11h04_20.png) 
  
