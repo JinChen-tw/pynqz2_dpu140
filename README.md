@@ -307,12 +307,12 @@ Use the following to open the top-level PetaLinux project configuration GUI.
    4. Connect the **USB cable** to your PC/Laptop, and to the PROG - UART MicroUSB port on the board    
    5. Connect the **Ethernet cable**  to your PC/Laptop, and to the RJ45 port on the board    
    6. Turn on the PYNQ-Z2 board
-    
+   
+   ![](./images/IMG_7522.jpg)
    
    Opening a USB Serial Terminal
    
    Installed **Tera Term**(or **Putty**) on your computer. 
-   
    To open a terminal, you will need to know the  **COM port**  for the board.  
      
    ![](./images/2019-09-10_11h01_34.png) 
