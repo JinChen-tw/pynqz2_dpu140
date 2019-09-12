@@ -378,9 +378,9 @@ Launch MobaXterm and click Start local terminal
    
   1. Install DNNDK into PYNQ-Z2 board
      - Execute the sudo ./install.sh command under the zynq7020_dnndk_v3.0 folder 
+     
      ```
      $./zynq7020_dnndk_v3.0/install.sh
- 
      ```  
      - Check the DPU of the board.   
      ```
