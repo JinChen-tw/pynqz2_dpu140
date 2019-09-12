@@ -36,7 +36,7 @@ Reference: https://github.com/alexhegit/zc702_dpu140_trd
 
 ## Application
 1. install DNNDK v3.0
-
+2. Run the yolov3 application 
 
 # Building the Hardware Platform in the Vivado Design Suite
 ## Step 1: Create a project in the Vivado Design Suite
@@ -351,11 +351,12 @@ Setup the address IP on the Board in the **tera term**, enter below
      ```  
   ![](./images/2019-09-10_12h08_09.png)
    
-Assign your laptop/PC a static IP address 
-    - Double click on the network interface to open it, and click on Properties
-    - Select Internet Protocol Version 4 (TCP/IPv4) and click Properties
-    - Set the Ip address to **192.168.0.1** (or any other address in the same range as the board)
-    - Set the subnet mask to 255.255.255.0 and click OK
+Assign your laptop/PC a static IP address
+
+   - Double click on the network interface to open it, and click on Properties
+   - Select Internet Protocol Version 4 (TCP/IPv4) and click Properties
+   - Set the Ip address to **192.168.0.1** (or any other address in the same range as the board)
+   - Set the subnet mask to 255.255.255.0 and click OK
     
    ![](./images/2019-09-10_12h12_24.png)  
    
@@ -389,7 +390,7 @@ Launch MobaXterm and click Start local terminal
      $dexplorer -v 
      ```
     
- 2. Run the yolov3 applications 
+ 2. Run the yolov3 applications
      - Change to the directory with the `app` application and run make 
        
      ```
