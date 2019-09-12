@@ -347,9 +347,9 @@ Download and install **MobaXterm** on Windows system. MobaXterm is a terminal fo
 
 Setup the address IP on the Board in the **tera term**, enter below
 
-     ```
-     $ifconfig eth0 192.168.0.10
-     ```  
+ ```
+    $ifconfig eth0 192.168.0.10
+ ```  
   ![](./images/2019-09-10_12h08_09.png)
    
 Assign your laptop/PC a static IP address
