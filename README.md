@@ -272,10 +272,12 @@ Use the following to open the top-level PetaLinux project configuration GUI.
   ![](./images/2019-09-05_10h51_47.png)
   
   The first is BOOT partioin in FAT32
+  Free Space Proceeding (MiB): 4, New Size (MiB) : 1024, File System : FAT32, Label : BOOT
   
   ![](./images/2019-09-05_10h52_47.png)
   
   The second is ROOTFS partion in ext4
+  Free Space Proceeding (MiB): 0, Free Space Following(MiB): 0, File System : ext4, Label :ROOTFS
   
   ![](./images/2019-09-05_10h53_41.png)
   
