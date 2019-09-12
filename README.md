@@ -391,10 +391,10 @@ Launch MobaXterm and click Start local terminal
      ```
     
  2. Run the yolov3 applications
-     - Change to the directory with the `app` application and run make 
+     - Change to the directory into `apps folder` and run make 
        
      ```
-     $cd <PROJ ROOT>/app
+     $cd <PROJ ROOT>/apps
      $make
      ```     
      - After running make,generate the complier file under the foloder
