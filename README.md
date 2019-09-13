@@ -17,6 +17,9 @@ Reference: https://github.com/alexhegit/zc702_dpu140_trd
      - Xilinx DPU IP v1.4.0
 	
 # File tree in this git project
+
+![](./images/2019-09-13_13h07_26.png)
+
 ## Vivado Design Suite
 
 1. Create a new project for the PYNQ-Z2.
@@ -35,7 +38,7 @@ Reference: https://github.com/alexhegit/zc702_dpu140_trd
 6. Create a boot image.
 
 ## Application
-1. install DNNDK v3.0
+1. Install DNNDK v3.0
 2. Run the yolov3 application 
 
 # Building the Hardware Platform in the Vivado Design Suite
