@@ -292,6 +292,8 @@ Use the following to open the top-level PetaLinux project configuration GUI.
   ```
   $sudo tar xzf rootfs.tar.gz -C /media/{user}/ROOTFS/
   
+  $sync
+  
   $cp BOOT.bin image.ub /media/{user}/BOOT
   ```
   
